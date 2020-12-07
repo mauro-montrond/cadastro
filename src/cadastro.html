@@ -268,6 +268,7 @@
                   <h4 class="c-grey-900">Ficha de Cadastro</h4>
                   <div class="mT-30">
                     <form id="cadastroFrom" novalidate>
+                      <!--
                       <div class="form-row">
                         <div class="form-group col-md-2">
                           <label for="newIndividual">Novo?</label>
@@ -277,33 +278,34 @@
                           </select>
                         </div>
                       </div>
+                      -->
                       <!-- Individual data  start -->
                       <div class="form-group" id="individualRegistration">
                         <!-- Photo and fingerprint start -->
                         <h5 class="c-grey-900">Fotografia</h5>
                         <div class="form-row">
-                          <div class="col-md-2">
+                          <div class="col-md-4">
                             <!--
                             <label for="inputPhotoLeft">Foto Esquerda</label>
                             <input type="file" id="inputPhotoLeft" name="img" accept="image/*">
                             -->
-                            <img id="photoLeft" src="assets/static/images/mugshot-placeholder.jpg" alt="photo left" style="height: 200px; width: 200px; padding: 10px;"/>
+                            <img id="photoLeft" src="assets/static/images/placeholders/mugshot-left.png" alt="photo left" style="height: 220px; width: 220px; padding: 10px;"/>
                             <input type='file' id="inputPhotoLeft" accept="image/*" style="padding: 10px;"/>
                           </div>
-                          <div class="col-md-2">
+                          <div class="col-md-4">
                             <!--
                             <label for="inputPhotoLeft">Foto Esquerda</label>
                             <input type="file" id="inputPhotoLeft" name="img" accept="image/*">
                             -->
-                            <img id="photoFront" src="assets/static/images/mugshot-placeholder.jpg" alt="photo front" style="height: 200px; width: 200px; padding: 10px;"/>
+                            <img id="photoFront" src="assets/static/images/placeholders/mugshot-center.png" alt="photo front" style="height: 220px; width: 220px; padding: 10px;"/>
                             <input type='file' id="inputPhotoFront" accept="image/*" style="padding: 10px;"/>
                           </div>
-                          <div class="col-md-2">
+                          <div class="col-md-4">
                             <!--
                             <label for="inputPhotoLeft">Foto Esquerda</label>
                             <input type="file" id="inputPhotoLeft" name="img" accept="image/*">
                             -->
-                            <img id="photoRight" src="assets/static/images/mugshot-placeholder.jpg" alt="photo right" style="height: 200px; width: 200px; padding: 10px;"/>
+                            <img id="photoRight" src="assets/static/images/placeholders/mugshot-right.png" alt="photo right" style="height: 220px; width: 220px; padding: 10px;"/>
                             <input type='file' id="inputPhotoRight" accept="image/*" style="padding: 10px;"/>
                           </div>
                         </div>
@@ -313,23 +315,23 @@
                           <h6 class="c-grey-900">Mão Esquerda</h6>
                           <div class="form-row">
                             <div class="col-md-2">
-                              <img id="thumbLeft" src="assets/static/images/mugshot-placeholder.jpg" alt="thumb left" style="height: 200px; width: 200px; padding: 10px;"/>
+                              <img id="thumbLeft" src="assets/static/images/placeholders/fingerprint-01.png" alt="thumb left" style="height: 150px; padding: 10px;"/>
                               <input type='file' id="inputThumbLeft" accept="image/*" style="padding: 10px;"/>
                             </div>
                             <div class="col-md-2">
-                              <img id="indexLeft" src="assets/static/images/mugshot-placeholder.jpg" alt="thumb left" style="height: 200px; width: 200px; padding: 10px;"/>
+                              <img id="indexLeft" src="assets/static/images/placeholders/fingerprint-02.png" alt="thumb left" style="height: 150px; padding: 10px;"/>
                               <input type='file' id="inputIndexLeft" accept="image/*" style="padding: 10px;"/>
                             </div>
                             <div class="col-md-2">
-                              <img id="middleLeft" src="assets/static/images/mugshot-placeholder.jpg" alt="thumb left" style="height: 200px; width: 200px; padding: 10px;"/>
+                              <img id="middleLeft" src="assets/static/images/placeholders/fingerprint-03.png" alt="thumb left" style="height: 150px; padding: 10px;"/>
                               <input type='file' id="inputMiddleLeft" accept="image/*" style="padding: 10px;"/>
                             </div>
                             <div class="col-md-2">
-                              <img id="ringLeft" src="assets/static/images/mugshot-placeholder.jpg" alt="thumb left" style="height: 200px; width: 200px; padding: 10px;"/>
+                              <img id="ringLeft" src="assets/static/images/placeholders/fingerprint-04.png" alt="thumb left" style="height: 150px; padding: 10px;"/>
                               <input type='file' id="inputRingLeft" accept="image/*" style="padding: 10px;"/>
                             </div>
                             <div class="col-md-2">
-                              <img id="littleLeft" src="assets/static/images/mugshot-placeholder.jpg" alt="thumb left" style="height: 200px; width: 200px; padding: 10px;"/>
+                              <img id="littleLeft" src="assets/static/images/placeholders/fingerprint-05.png" alt="thumb left" style="height: 150px; padding: 10px;"/>
                               <input type='file' id="inputLittleLeft" accept="image/*" style="padding: 10px;"/>
                             </div>
                           </div>
@@ -338,23 +340,23 @@
                           <h6 class="c-grey-900">Mão Direita</h6>
                           <div class="form-row">
                             <div class="col-md-2">
-                              <img id="thumbRight" src="assets/static/images/mugshot-placeholder.jpg" alt="thumb left" style="height: 200px; width: 200px; padding: 10px;"/>
+                              <img id="thumbRight" src="assets/static/images/placeholders/fingerprint-01.png" alt="thumb left" style="height: 150px; padding: 10px;"/>
                               <input type='file' id="inputThumbRight" accept="image/*" style="padding: 10px;"/>
                             </div>
                             <div class="col-md-2">
-                              <img id="indexRight" src="assets/static/images/mugshot-placeholder.jpg" alt="thumb left" style="height: 200px; width: 200px; padding: 10px;"/>
+                              <img id="indexRight" src="assets/static/images/placeholders/fingerprint-02.png" alt="thumb left" style="height: 150px; padding: 10px;"/>
                               <input type='file' id="inputIndexRight" accept="image/*" style="padding: 10px;"/>
                             </div>
                             <div class="col-md-2">
-                              <img id="middleRight" src="assets/static/images/mugshot-placeholder.jpg" alt="thumb left" style="height: 200px; width: 200px; padding: 10px;"/>
+                              <img id="middleRight" src="assets/static/images/placeholders/fingerprint-03.png" alt="thumb left" style="height: 150px; padding: 10px;"/>
                               <input type='file' id="inputMiddleRight" accept="image/*" style="padding: 10px;"/>
                             </div>
                             <div class="col-md-2">
-                              <img id="ringRight" src="assets/static/images/mugshot-placeholder.jpg" alt="thumb left" style="height: 200px; width: 200px; padding: 10px;"/>
+                              <img id="ringRight" src="assets/static/images/placeholders/fingerprint-04.png" alt="thumb left" style="height: 150px; padding: 10px;"/>
                               <input type='file' id="inputRingRight" accept="image/*" style="padding: 10px;"/>
                             </div>
                             <div class="col-md-2">
-                              <img id="littleRight" src="assets/static/images/mugshot-placeholder.jpg" alt="thumb left" style="height: 200px; width: 200px; padding: 10px;"/>
+                              <img id="littleRight" src="assets/static/images/placeholders/fingerprint-05.png" alt="thumb left" style="height: 150px; padding: 10px;"/>
                               <input type='file' id="inputLittleRight" accept="image/*" style="padding: 10px;"/>
                             </div>
                           </div>

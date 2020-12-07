@@ -74,15 +74,56 @@ export default (function () {
     }
   }
   
+  // ------------------------------------------------------
+  // @Update photos
+  // ------------------------------------------------------
   $("#inputPhotoLeft").change(function() {
-    readURL(this,'photoLeft','assets/static/images/mugshot-placeholder.jpg');
+    readURL(this,'photoLeft','assets/static/images/placeholders/mugshot-left.png');
   });
   $("#inputPhotoFront").change(function() {
-    readURL(this,'photoFront','assets/static/images/mugshot-placeholder.jpg');
+    readURL(this,'photoFront','assets/static/images/placeholders/mugshot-center.png');
   });
   $("#inputPhotoRight").change(function() {
-    readURL(this,'photoRight','assets/static/images/mugshot-placeholder.jpg');
+    readURL(this,'photoRight','assets/static/images/placeholders/mugshot-right.png');
   });
+
+  // ------------------------------------------------------
+  // @Update left fingerprints
+  // ------------------------------------------------------
+  $("#inputThumbLeft").change(function() {
+    readURL(this,'thumbLeft','assets/static/images/placeholders/fingerprint-01.png');
+  });
+  $("#inputIndexLeft").change(function() {
+    readURL(this,'indexLeft','assets/static/images/placeholders/fingerprint-02.png');
+  });
+  $("#inputMiddleLeft").change(function() {
+    readURL(this,'middleLeft','assets/static/images/placeholders/fingerprint-03.png');
+  });
+  $("#inputRingLeft").change(function() {
+    readURL(this,'ringLeft','assets/static/images/placeholders/fingerprint-04.png');
+  });
+  $("#inputLittleLeft").change(function() {
+    readURL(this,'littleLeft','assets/static/images/placeholders/fingerprint-05.png');
+  });
+  // ------------------------------------------------------
+  // @Update right fingerprints
+  // ------------------------------------------------------
+  $("#inputThumbRight").change(function() {
+    readURL(this,'thumbRight','assets/static/images/placeholders/fingerprint-01.png');
+  });
+  $("#inputIndexRight").change(function() {
+    readURL(this,'indexRight','assets/static/images/placeholders/fingerprint-02.png');
+  });
+  $("#inputMiddleRight").change(function() {
+    readURL(this,'middleRight','assets/static/images/placeholders/fingerprint-03.png');
+  });
+  $("#inputRingRight").change(function() {
+    readURL(this,'ringRight','assets/static/images/placeholders/fingerprint-04.png');
+  });
+  $("#inputLittleRight").change(function() {
+    readURL(this,'littleRight','assets/static/images/placeholders/fingerprint-05.png');
+  });
+
 
 
   // ------------------------------------------------------
